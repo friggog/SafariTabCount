@@ -1,0 +1,9 @@
+Package: me.chewitt.tabcount
+Name: SafariTabCount
+Depends: firmware(>= 7.0), mobilesubstrate, preferenceloader
+Version: 2.1
+Architecture: iphoneos-arm
+Description: Display number of open tabs in safari, hold to close all/open new & unlimited number of tabs.
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Section: Tweaks

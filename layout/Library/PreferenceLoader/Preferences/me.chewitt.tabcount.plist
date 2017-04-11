@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>SafariTabCount</string>
+   <key>entry</key>
+   <dict>
+      <key>cell</key>
+      <string>PSLinkCell</string>
+      <key>icon</key>
+      <string>me.chewitt.tabcount.icon.png</string>
+      <key>label</key>
+      <string>SafariTabCount</string>
+    </dict>
+    <key>items</key>
+    <array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>me.chewitt.tabcount</string>
+				<key>key</key>
+				<string>enabled</string>
+				<key>label</key>
+				<string>Enabled</string>
+				<key>negate</key>
+				<true/>
+				<key>PostNotification</key>
+				<string>me.chewitt.tabcount.settingschanged</string>
+			</dict>
+      <dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>default</key>
+				<integer>0</integer>
+				<key>defaults</key>
+				<string>me.chewitt.tabcount</string>
+				<key>key</key>
+				<string>LongPressAction</string>
+				<key>label</key>
+				<string>Long Press Action</string>
+				<key>PostNotification</key>
+				<string>me.chewitt.tabcount.settingschanged</string>
+				<key>detail</key>
+				<string>PSListItemsController</string>
+				<key>validValues</key>
+				<array>
+					<integer>0</integer>
+					<integer>2</integer>
+				</array>
+				<key>validTitles</key>
+				<array>
+					<string>Close all tabs except active</string>
+					<string>Open new tab</string>
+				</array>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>me.chewitt.tabcount</string>
+				<key>key</key>
+				<string>ayeris</string>
+				<key>label</key>
+				<string>Ayeris Support</string>
+				<key>PostNotification</key>
+				<string>me.chewitt.tabcount.settingschanged</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Restart Safari for changes to apply.</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>SafariTabCount
+© Charlie Hewitt 2014</string>
+			</dict>
+    </array>
+    <key>title</key>
+    <string>SafariTabCount</string>
+   </dict>
+</plist>
